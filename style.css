@@ -128,6 +128,17 @@ h4 {
   position: relative;
 }
 
+/* maya */
+#maya .photo {
+  width: 100%;
+  height: 550px;
+  background-image: url(img/5.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
 /* hover */
 .heart:hover {
   background-color: rgb(227, 66, 52);
@@ -148,6 +159,10 @@ h4 {
 
 #visel .photo:hover{
   background-image: url(img/4b.webp);
+}
+
+#maya .photo:hover{
+  background-image: url(img/5b.webp);
 }
 
 /* debug */
