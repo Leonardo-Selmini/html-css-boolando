@@ -63,6 +63,7 @@ section {
 .brand {
   display: inline-block;
   font-size: 14px;
+  text-transform: capitalize;
   color: grey;
   margin-top: 5px;
 }
@@ -105,6 +106,17 @@ h4 {
   position: relative;
 }
 
+/* sugar */
+#sugar .photo {
+  width: 100%;
+  height: 550px;
+  background-image: url(img/3.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
 /* hover */
 .heart:hover {
   background-color: rgb(227, 66, 52);
@@ -117,6 +129,10 @@ h4 {
 
 #guess .photo:hover{
   background-image: url(img/2b.webp);
+}
+
+#sugar .photo:hover{
+  background-image: url(img/3b.webp);
 }
 
 /* debug */
