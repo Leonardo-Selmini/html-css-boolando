@@ -63,6 +63,7 @@ section {
 .brand {
   font-size: 14px;
   color: grey;
+  margin-top: 5px;
 }
 
 h4 {
@@ -90,7 +91,6 @@ h4 {
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  margin-bottom: 5px;
 }
 
 /* hover */
