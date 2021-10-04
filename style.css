@@ -1,0 +1,37 @@
+/* commons */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  width: 1440px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* container */
+#container {
+  width: 90%;
+  margin: 10px auto;
+}
+
+/* sections */
+section {
+  width: calc(100% / 3 - 30px);
+  float: left;
+  margin: 5px 5px;
+}
+
+/* debug */
+.debug section {
+  height: 600px;
+  background-color: cornflowerblue;
+}
