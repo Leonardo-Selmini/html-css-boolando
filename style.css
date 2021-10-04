@@ -18,16 +18,17 @@ body {
 }
 
 /* container */
-#container {
+#full-container {
   width: 90%;
   margin: 10px auto;
 }
 
 /* sections */
 section {
-  width: calc(100% / 3 - 30px);
+  width: 33.333%;
   float: left;
-  margin: 5px 5px;
+  padding: 5px 5px;
+  margin-bottom: 20px;
 }
 
 .heart {
@@ -60,16 +61,21 @@ section {
   color: white;
 }
 
+.info-container {
+  background-color: rgb(250, 250, 250);
+  padding: 5px 8px;
+}
+
 .brand {
   display: inline-block;
   font-size: 14px;
   text-transform: capitalize;
   color: grey;
-  margin-top: 5px;
 }
 
 h4 {
   text-transform: uppercase;
+  margin-top: 1px;
 }
 
 .sale-price {
@@ -139,6 +145,17 @@ h4 {
   position: relative;
 }
 
+/* esprit */
+#esprit .photo {
+  width: 100%;
+  height: 550px;
+  background-image: url(img/6.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
 /* hover */
 .heart:hover {
   background-color: rgb(227, 66, 52);
@@ -165,8 +182,12 @@ h4 {
   background-image: url(img/5b.webp);
 }
 
-/* debug */
+#esprit .photo:hover{
+  background-image: url(img/6b.webp);
+}
+
+/* debug
 .debug section {
   height: 600px;
   background-color: cornflowerblue;
-}
+} */
